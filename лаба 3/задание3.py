@@ -2,12 +2,12 @@
 def get_count_letters(main_str):
     letter_counts = {}  # Используйте letter_counts вместо letter_count
     main_str = main_str.lower()
-    for i in main_str:
-        if i.isalpha():
-            if i in letter_counts:
-                letter_counts[i] += 1
+    for symbol in main_str:
+        if symbol.isalpha():
+            if symbol in letter_counts:
+                letter_counts[symbol] += 1
             else:
-                letter_counts[i] = 1
+                letter_counts[symbol] = 1
 
     return letter_counts
 
