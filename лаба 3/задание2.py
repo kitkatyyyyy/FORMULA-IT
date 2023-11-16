@@ -12,3 +12,7 @@ participants_second_group = "Петров|Сидоров|Смирнов"
 # TODO Провеьте работу функции с разделителем отличным от запятой
 print(find_common_participants(participants_first_group, participants_second_group, ))
 
+
+#Для того, чтобы код сработал c предложенными строками, необходимо прописать разделитель, стоящий в них
+print(find_common_participants(participants_first_group, participants_second_group, '|'))
+
