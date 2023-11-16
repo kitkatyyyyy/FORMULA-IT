@@ -1,7 +1,7 @@
 # TODO решите задачу
 
 import json
-
+ 
 def task(file_name: str) -> float:
     with open(file_name, 'r') as file:
         data = json.load(file)
