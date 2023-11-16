@@ -14,7 +14,7 @@ def task(csv_file: str, delimiter: str = ',') -> str:
     # with open(csv_file, 'r') as file:
     #     reader = csv.DictReader(file, delimiter=delimiter)
     #     for row in reader:
-    #         json_data.append(row)
+    #         json_data.append(row) 
     json_data = [row for row in csv.DictReader(open(csv_file, 'r'), delimiter=delimiter)]
 
     # TODO Сериализовать в файл с отступами равными 4
